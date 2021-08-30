@@ -7,7 +7,7 @@ import numpy as np
 import time
 import darknet.darknet as darknet
 
-# 把坐标从yolo图片大小恢复到原图大小的坐标
+# 把aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa坐标从yolo图片大小恢复到原图大小的坐标
 # arg:x,y,w,h:是yolo输出的bbox变量；shape1是yolo模型输入图片的大小，shape2是原图大小
 def xy_coord_warp(x, y, w, h, shape1, shape2):
     xmin = int(round(x - (w / 2)))
